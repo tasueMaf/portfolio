@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Tasunungurwa Mafuruse" />
+  <meta name="description" content="Professional IT Portfolio of Tasunungurwa Mafuruse" />
+  <title>Tasunungurwa Mafuruse | Junior IT Specialist</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --primary-color: #0077b6;
+      --secondary-color: #023e8a;
+      --bg-color: #f1f1f1;
+      --text-color: #222;
+      --accent-color: #00b4d8;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Roboto', sans-serif;
+    }
+
+    body {
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      line-height: 1.6;
+    }
+
+    header {
+      background: var(--primary-color);
+      color: white;
+      padding: 1rem 2rem;
+      text-align: center;
+    }
+
+    nav {
+      background: var(--secondary-color);
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 2rem;
+      padding: 0.8rem;
+      position: sticky;
+      top: 0;
+      z-index: 999;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: var(--accent-color);
+    }
+
+    section {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h1, h2, h3 {
+      color: var(--secondary-color);
+      margin-bottom: 1rem;
+    }
+
+    .profile-card {
+      background: white;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      margin-bottom: 2rem;
+    }
+
+    .cv-download, .designs-download {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .download-item {
+      background: white;
+      padding: 1rem;
+      border-left: 6px solid var(--primary-color);
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    .download-item a {
+      text-decoration: none;
+      color: var(--secondary-color);
+      font-weight: 600;
+    }
+
+    footer {
+      background: var(--primary-color);
+      text-align: center;
+      padding: 1rem;
+      color: white;
+    }
+
+    @media (max-width: 600px) {
+      nav {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Tasunungurwa Mafuruse</h1>
+    <p>Junior IT Specialist | Software Developer | Data Analyst</p>
+  </header>
+
+  <nav>
+    <a href="#profile">Profile</a>
+    <a href="#skills">Skills</a>
+    <a href="#experience">Experience</a>
+    <a href="#education">Education</a>
+    <a href="#certifications">Certifications</a>
+    <a href="#projects">Projects</a>
+    <a href="#downloads">Downloads</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="profile" class="profile-card">
+    <h2>Profile</h2>
+    <p>Dynamic and highly motivated recent IT graduate with a First-Class degree in Information Technology. Strong in software development, data analysis, and IT systems management. Collaborative and results-oriented with a passion for innovation and technology-driven impact.</p>
+  </section>
+
+  <section id="skills" class="profile-card">
+    <h2>Skills</h2>
+    <ul>
+      <li>Fault Diagnosis and IT Support</li>
+      <li>Web Platform Development and Maintenance</li>
+      <li>Continuous Integration and Process Improvement</li>
+      <li>Cybersecurity and IT Security Management</li>
+      <li>Teamwork and Collaboration</li>
+      <li>Effective Communication</li>
+    </ul>
+  </section>
+
+  <section id="experience" class="profile-card">
+    <h2>Work Experience</h2>
+    <p><strong>April 2023 - Sept 2024: Talent Africa</strong></p>
+    <ul>
+      <li>IT Internship</li>
+      <li>Data Annotation and Quality Assurance</li>
+      <li>Product listing and description on Shumba Africa</li>
+      <li>Website layout and user experience optimization</li>
+    </ul>
+  </section>
+
+  <section id="education" class="profile-card">
+    <h2>Education</h2>
+    <p><strong>Chinhoyi University of Technology (2021–2024)</strong><br> BSc Honours Degree in Information Technology (First Class)</p>
+    <p><strong>Zimuto High School (2018)</strong><br> 9 O-Level passes including Maths, English, and Science</p>
+  </section>
+
+  <section id="certifications" class="profile-card">
+    <h2>Certifications</h2>
+    <ul>
+      <li>Google Coursera Certification in Graphic Designing</li>
+      <li>Google Coursera IT Support Specialist Certification</li>
+      <li>Google Coursera Data Analytics Certification</li>
+    </ul>
+  </section>
+
+  <section id="projects" class="profile-card">
+    <h2>Projects</h2>
+    <ul>
+      <li><strong>AI-based Tobacco Disease Detection System</strong> – Developed a CNN-based web application to detect early-stage diseases in tobacco plants using image data.</li>
+      <li><strong>Preschool Management System</strong> – Built a full-featured information management system using PHP/XAMPP with role-based access for admin, manager, and parents.</li>
+      <li><strong>Portfolio Website</strong> – Designed a responsive and animated web portfolio to showcase achievements, certifications, and downloadable designs.</li>
+      <li><strong>Product Catalogue Optimizer</strong> – Enhanced UX and SEO for an e-commerce catalog (Shumba Africa platform).</li>
+    </ul>
+  </section>
+
+  <section id="downloads" class="profile-card">
+    <h2>Downloadable Content</h2>
+    <div class="cv-download">
+      <div class="download-item">
+        <a href="cv-tasunungurwa.pdf.pdf" download>Download My CV (PDF)</a>
+      </div>
+    </div>
+    <div class="designs-download">
+      <h3>Flyers & Designs</h3>
+      <div class="download-item">
+        <a href="flyer1.png" download>Flyer Design 1</a>
+      </div>
+      <div class="download-item">
+        <a href="flyer2.png" download>Flyer Design 2</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="profile-card">
+    <h2>Contact</h2>
+    <p><strong>Phone:</strong> 0787688879 | 0717263236</p>
+    <p><strong>Email:</strong> tasunungurwamafuruse@gmail.com</p>
+    <p><strong>Address:</strong> 6645 Nehanda DZ Extension, Harare, Zimbabwe</p>
+  </section>
+
+  <footer>
+    &copy; 2025 Tasunungurwa Mafuruse. All rights reserved.
+  </footer>
+</body>
+</html>
